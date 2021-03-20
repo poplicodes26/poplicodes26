@@ -54,6 +54,7 @@
             }
             #txt3{
                 font-size: 2.5rem;
+                font-family: 'Poppins', sans-serif;
                 color: white;
             }
             #card{
@@ -64,6 +65,7 @@
                 background-color: #585858;
                 padding: 10px 5px;
                 border: none;
+                font-family: 'Montserrat', sans-serif;
                 border-bottom: 2px solid #00FF99;
             }
             #input:focus,textarea:focus{
@@ -77,8 +79,20 @@
             form a{
                 background-color: #00FF99;
                 color: white;
+                font-family: 'Montserrat', sans-serif;
                 margin: 10px;
                 margin-left: 20rem;
+            }
+            #input-lat{
+                background-color: #585858;
+                padding: 10px 5px;
+                border: none;
+                font-family: 'Montserrat', sans-serif;
+                border-bottom: 2px solid #00FF99;
+                margin-right: 10px;
+            }
+            #input-lat::placeholder{
+                color: white;
             }
         </style>
     </head>
@@ -122,6 +136,10 @@
                         <form>
                             <div class="form-group">
                               <input type="text"  class="form-control" id="input"  placeholder="Enter Pickup Point">
+                            </div>
+                            <div class="form-group d-flex flex-row">
+                                <input type="number" class="form-control" id="input-lat" placeholder="Latitude">
+                                <input type="number" class="form-control" id="input" placeholder="Longitude">
                             </div>
                             <div class="form-group">
                               <input type="text" class="form-control" id="input" placeholder="Enter Destination Point">
