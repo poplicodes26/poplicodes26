@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @poplicodes26 currently pursuing B.Tech Information Technology at Vellore Institute of Technology,Vellore.
+- 👋 Hi, I’m Manav Popli currently pursuing B.Tech Information Technology at Vellore Institute of Technology,Vellore.
 - 👀 I’m interested in Web Development and competetive programming.
 - 🌱 I’m currently learning React and expanding my knowledge on various data structures and algorithms.
 - 📫 Reach me on e-mail at manav.popli26@gmail.com
